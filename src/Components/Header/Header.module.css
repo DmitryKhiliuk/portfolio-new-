@@ -1,0 +1,48 @@
+.header {
+    background-color: black;
+    width: 1000px;
+    margin: 0 auto;
+    color: white;
+    height: 146px;
+}
+
+.header__container {
+    width: 840px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+    text-align: left;
+    margin-top: 25px;
+    line-height: 45px;
+    letter-spacing: .5px;
+}
+
+.nav {
+    align-self: flex-end;
+    margin-bottom: 15px;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    padding-bottom: 2px;
+    transition:  border-bottom .4s linear;
+}
+
+.active {
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+.nav__item:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
