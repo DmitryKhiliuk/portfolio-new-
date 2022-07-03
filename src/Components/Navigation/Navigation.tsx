@@ -12,7 +12,7 @@ export const Navigation = () => {
         <nav className={s.nav}>
             <NavLink to={'/portfolio-new-'} className={setActive}>PORTFOLIO</NavLink>
             <NavLink to={'/aboutMe'} className={setActive}>ABOUT ME</NavLink>
-            <NavLink to={'/contacts'} className={setActive}>CONTACTS</NavLink>
+            <NavLink to={'/contacts'} className={setActive}>CONTACT</NavLink>
         </nav>
     );
 };

@@ -1,0 +1,43 @@
+.contacts{
+    background-color: white;
+    width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+
+
+}
+.contacts__container {
+    width: 840px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+
+}
+.data {
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px;
+}
+
+.form {
+    border: 1px solid black;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputForm {
+    height: 40px;
+}
+
+.textareaForm {
+
+}
+

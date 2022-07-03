@@ -1,0 +1,10 @@
+
+.text {
+    height: 59px;
+}
+.mainImage {
+    background: url(../../assets/img/stripe.png) repeat-x;
+    height: 14px;
+    width: 100%;
+    margin: 0 0 40px 0;
+}
