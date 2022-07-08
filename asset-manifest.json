@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-new-/static/css/main.de0efbcf.css",
+    "main.css": "/portfolio-new-/static/css/main.d7b868cf.css",
     "main.js": "/portfolio-new-/static/js/main.c7f7815f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-new-/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo.jpg": "/portfolio-new-/static/media/photo.395b10225c4de9a1333a.jpg",
     "static/media/social.png": "/portfolio-new-/static/media/social.e9a1e19c175b86e0664c.png",
+    "static/media/Roboto-Light.svg": "/portfolio-new-/static/media/Roboto-Light.b8c27feb9b7c7c7bcb96.svg",
+    "static/media/YanoneKaffeesatz-Regular.svg": "/portfolio-new-/static/media/YanoneKaffeesatz-Regular.75af77ddc784dbdeb7de.svg",
+    "static/media/YanoneKaffeesatz-Light.svg": "/portfolio-new-/static/media/YanoneKaffeesatz-Light.6b1428c88053f6463b6b.svg",
     "static/media/bookshelf.png": "/portfolio-new-/static/media/bookshelf.f402d65c8fc3de9aea5b.png",
     "static/media/todolist-img.png": "/portfolio-new-/static/media/todolist-img.7b21683dea36223e3bb3.png",
+    "static/media/Roboto-Light.eot": "/portfolio-new-/static/media/Roboto-Light.cade3e3390037f2b8e06.eot",
+    "static/media/Roboto-Light.ttf": "/portfolio-new-/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/Roboto-Light.woff": "/portfolio-new-/static/media/Roboto-Light.7ee9d60364b5c850a824.woff",
+    "static/media/YanoneKaffeesatz-Regular.ttf": "/portfolio-new-/static/media/YanoneKaffeesatz-Regular.19bfeab9c82bdea4455e.ttf",
+    "static/media/YanoneKaffeesatz-Light.ttf": "/portfolio-new-/static/media/YanoneKaffeesatz-Light.7093d6d402dd774665bf.ttf",
     "static/media/future.png": "/portfolio-new-/static/media/future.7160da89132500cab180.png",
     "index.html": "/portfolio-new-/index.html",
-    "main.de0efbcf.css.map": "/portfolio-new-/static/css/main.de0efbcf.css.map",
+    "main.d7b868cf.css.map": "/portfolio-new-/static/css/main.d7b868cf.css.map",
     "main.c7f7815f.js.map": "/portfolio-new-/static/js/main.c7f7815f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-new-/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de0efbcf.css",
+    "static/css/main.d7b868cf.css",
     "static/js/main.c7f7815f.js"
   ]
 }
