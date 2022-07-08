@@ -22,12 +22,12 @@ export const Portfolio = () => {
                 <div className={s.mainImage}><img src={stripe} alt="stripe"/></div>*/}
                 <Title img={portfolio}/>
                 <div className={s.projects}>
-                    <Project background={bgTodoList} title={'Todolist'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk, Material UI, Unit Tests'}/>
-                    <Project background={bgBookshelf} title={'Bookshelf'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk'}/>
-                    <Project background={bgSocialNetwork} title={'Social Network'} text={'Technologies: TypeScript, React, Redux, Redux-thunk, Redux-form, Axios, Reselect, SCSS'}/>
-                    <Project background={bgFutureProject} title={'Future Project'} text={'In progress...'}/>
-                    <Project background={bgFutureProject} title={'Future Project'} text={'In progress...'}/>
-                    <Project background={bgFutureProject} title={'Future Project'} text={'In progress...'}/>
+                    <Project background={bgTodoList} addressCode={'#'} addressProject={'#'}  title={'Todolist'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk, Material UI, Unit Tests'}/>
+                    <Project background={bgBookshelf} addressProject={'https://DmitryKhiliuk.github.io/Bookshelf'} addressCode={'https://github.com/DmitryKhiliuk/Bookshelf.git'} title={'Bookshelf'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk'}/>
+                    <Project background={bgSocialNetwork} addressProject={'#'} addressCode={'#'} title={'Social Network'} text={'Technologies: TypeScript, React, Redux, Redux-thunk, Redux-form, Axios, Reselect, SCSS'}/>
+                    <Project background={bgFutureProject} addressProject={'#'} addressCode={'#'} title={'Future Project'} text={'In progress...'}/>
+                    <Project background={bgFutureProject} addressProject={'#'} addressCode={'#'} title={'Future Project'} text={'In progress...'}/>
+                    <Project background={bgFutureProject} addressProject={'#'} addressCode={'#'} title={'Future Project'} text={'In progress...'}/>
 
                 </div>
             </div>

@@ -30,7 +30,11 @@
     /*font-weight: bold;*/
     color: black;
 }
+.content h2 {
+    border: none;
+}
 .title {
+
     text-align: center;
     color: black;
 }
@@ -48,13 +52,18 @@
     background: none;
     margin-top: 5px;
     font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px 0 10px;
+    color: black;
     font-size: 22px;
+    border: 2px solid black;
     /*font-weight: bold;*/
     cursor: pointer;
     transition: background .4s linear;
 }
 .button:hover {
-    background: #282c34;
+    background: black;
     color: white;
 }
 

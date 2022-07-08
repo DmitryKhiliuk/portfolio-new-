@@ -32,7 +32,7 @@ export const AboutMe = () => {
                     <div className={s.diagramBlock}>
                         <div className={s.diagramBlockItem}>
                             <h3>FOUNDATION</h3>
-                            <Diagram percent={'90%'}/>
+                            <Diagram percent={'80%'}/>
                             <p className={s.description}>JavaScript, TypeScript, HTML5, CSS3</p>
                         </div>
                         <div className={s.diagramBlockItem}>
