@@ -12,6 +12,28 @@ code {
     monospace;
 }
 
+/*@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url('assets/fonts/YanoneKaffeesatz-Light.eot');
+  src: local('☺'), url('assets/fonts/YanoneKaffeesatz-Light.woff') format('woff'), url('assets/fonts/YanoneKaffeesatz-Light.ttf') format('truetype'), url('assets/fonts/YanoneKaffeesatz-Light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}*/
+/*@font-face {
+  font-family: 'Lucida Sans Unicode';
+  src: url('assets/fonts/lucidasansunicode.eot');
+  src: local('☺'), url('assets/fonts/lucidasansunicode.woff') format('woff'), url('assets/fonts/lucidasansunicode.ttf') format('truetype'), url('assets/fonts/lucidasansunicode.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+/*@font-face {
+  font-family: 'Lucida Grand';
+  src: url('assets/fonts/lucidagrande.eot');
+  src: local('☺'), url('assets/fonts/lucidagrande.woff') format('woff'), url('assets/fonts/lucidagrande.ttf') format('truetype'), url('assets/fonts/lucidagrande.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
 /*======================================================================================
 1. GLOBAL RESET
 /*======================================================================================*/
