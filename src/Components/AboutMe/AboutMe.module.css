@@ -33,7 +33,7 @@
 .photo::before {
     position: absolute;
     content: '';
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.3);
     top: 0;
     bottom: 0;
     left: 0;
@@ -78,6 +78,7 @@ h3 {
 .diagramBlock {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 
 }
 

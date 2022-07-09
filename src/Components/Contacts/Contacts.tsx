@@ -4,6 +4,7 @@ import {Title} from "../Title/Title";
 import contact from "../../assets/img/contact.png";
 
 export const Contacts = () => {
+
     return (
         <div className={s.contacts}>
             <div className={s.contacts__container}>
@@ -15,16 +16,16 @@ export const Contacts = () => {
                         <h3>TELEGRAM</h3>
                         <p>@dmitrykhiliuk</p>
                         <h3>GITHUB</h3>
-                        <a href="#"><p>go to GitHub</p></a>
+                        <a href="https://github.com/DmitryKhiliuk"><p>go to GitHub</p></a>
                         <h3>ADDRESS</h3>
                         <p>Brest, Belarus</p>
                     </div>
-                    <div className={s.form}>
+                    <form className={s.form} action={'khiliukbrest@gmail.com'}>
                         <input type="text" className={s.inputForm} placeholder={'Your name'}/>
                         <input type="text" className={s.inputForm} placeholder={'Email address'}/>
                         <textarea className={s.textareaForm} placeholder={'Your message'}></textarea>
-                        <button className={s.button}>SEND MESSAGE</button>
-                    </div>
+                        <button className={s.button} type={"submit"}>SEND MESSAGE</button>
+                    </form>
                 </div>
             </div>
         </div>

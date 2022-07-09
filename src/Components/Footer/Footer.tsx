@@ -7,9 +7,14 @@ import codewars from '../../assets/img/codewars_logo_icon_145389.png'
 import top from '../../assets/img/top.png'
 import {Navigation} from "../Navigation/Navigation";
 
-export const Footer = () => {
+
+type FooterType = {
+    background:{backgroundImage:string}
+}
+
+export const Footer = (props:FooterType) => {
     return (
-        <div className={s.footer}>
+        <div className={s.footer} style={props.background}>
             <div className={s.footer__container}>
                 <div className={s.footer__content}>
                     <div className={s.footer__item}>
@@ -31,16 +36,16 @@ export const Footer = () => {
                     <div className={s.footer__item}>
                         <h5>Social</h5>
                         <div className={s.imgSocial}>
-                            <div className={s.imgContainer}><a href="#"><img src={github} alt="github"/></a></div>
-                            <div className={s.imgContainer}><a href="#"><img src={linkedin} alt="linkedin"/></a></div>
-                            <div className={s.imgContainer}><a href="#"><img src={telegram} alt="telegram"/></a></div>
-                            <div className={s.imgContainer}><a href="#"><img src={codewars} alt="codewars"/></a></div>
+                            <div className={s.imgContainer}><a href="https://github.com/DmitryKhiliuk" target={'_blank'}><img src={github} alt="github"/></a></div>
+                            <div className={s.imgContainer}><a href="https://www.linkedin.com/in/dmitry-khiliuk-916b50230/" target={'_blank'}><img src={linkedin} alt="linkedin"/></a></div>
+                            <div className={s.imgContainer}><a href="http://t.me/dmitrykhiliuk" target={'_blank'}><img src={telegram} alt="telegram"/></a></div>
+                            <div className={s.imgContainer}><a href="https://www.codewars.com/users/DmitryKhiliuk" target={'_blank'}><img src={codewars} alt="codewars"/></a></div>
 
                         </div>
                     </div>
                     <div className={s.footer__item}>
                         <h5>Resume</h5>
-                        <div className={s.download}><a href="#"></a></div>
+                        <a href={"https://drive.google.com/file/d/1oQ-n3t7R4ANv8u0Xsij6B3zQd5cuOwgy/view?usp=sharing"} target={'_blank'} ><div className={s.download}></div></a>
                     </div>
                 </div>
                 <div className={s.footer__nav}>

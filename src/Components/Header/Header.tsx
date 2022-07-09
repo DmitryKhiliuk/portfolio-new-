@@ -2,9 +2,14 @@ import React from 'react';
 import s from './Header.module.css'
 import {Navigation} from "../Navigation/Navigation";
 
-export const Header = () => {
+type HeaderType = {
+    background:{backgroundImage:string}
+}
+
+
+export const Header = (props: HeaderType) => {
     return (
-        <div className={s.header}>
+        <div className={s.header} style={props.background}>
             <div className={s.header__container}>
                 <div className={s.title}>
                     <h1>Dmitry Khiliuk</h1>

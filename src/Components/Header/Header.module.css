@@ -1,9 +1,10 @@
 .header {
-    background-color: black;
     width: 1000px;
     margin: 0 auto;
     color: white;
     height: 146px;
+    background-size: cover;
+    background-position: center;
 
 }
 
