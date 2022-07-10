@@ -1,0 +1,24 @@
+.nav
+    align-self: flex-end
+    margin-bottom: 15px
+    width: 360px
+    display: flex
+    justify-content: space-between
+    @media screen and (max-width: 585px)
+        align-self: center
+        width: 330px
+    .nav__item
+        color: white
+        text-decoration: none
+        font-size: 22px
+        border-bottom: 3px solid rgba(255, 255, 255, 0)
+        padding-bottom: 2px
+        transition:  border-bottom .4s linear
+        &:hover
+            border-bottom: 3px solid rgba(255, 255, 255, 1)
+    .active
+        border-bottom: 3px solid rgba(255, 255, 255, 1)
+
+
+
+

@@ -1,0 +1,67 @@
+.footer
+    min-height: 288px
+    max-width: 1000px
+    margin: 0 auto
+    color: white
+    background-size: cover
+    background-position: center
+    .footer__container
+        max-width: 840px
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        .footer__content
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+            text-align: left
+            border-bottom: 2px solid white
+            padding-bottom: 25px
+            @media screen and (max-width: 840px)
+                justify-content: space-around
+                @media screen and (max-width: 585px)
+                    flex-direction: column
+                    align-items: center
+            .footer__item
+                line-height: 20px
+                @media screen and (max-width: 585px)
+                    text-align: center
+                h5
+                    margin: 40px 0 20px 0
+                ul
+                    a
+                        font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif
+                        color: white
+                .imgSocial
+                    display: flex
+                    img
+                        width: 35px
+                        height: 35px
+                        margin-top: 6px
+                    .imgContainer
+                        width: 40px
+                        height: 40px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        background-color: white
+                        border-radius: 100%
+                        margin-right: 10px
+                .download
+                    background: url(../../assets/img/download.png) no-repeat 0 0
+                    width: 80px
+                    height: 80px
+                    display: block
+                    &:hover
+                        background-position: 0 -80px
+        .footer__nav
+            display: flex
+            justify-content: space-between
+            margin-top: 40px
+            @media screen and (max-width: 585px)
+                flex-direction: column
+
+
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "../Title/Title.module.css";
+import s from "./Title.module.sass";
 import stripe from "../../assets/img/stripe.png";
 
 type TitleType = {

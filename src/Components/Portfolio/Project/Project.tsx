@@ -1,5 +1,5 @@
 import React from 'react';
-import s from '../Project/Progect.module.css'
+import s from './Progect.module.sass'
 
 type ProjectType = {
     background: {backgroundImage: string}

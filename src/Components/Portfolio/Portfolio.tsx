@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Portfolio.module.css'
+import s from './Portfolio.module.sass'
 import portfolio from '../../assets/img/portfolio.png'
 import {Project} from "./Project/Project";
 import bgTodo from '../../assets/img/todolist-img.png'
@@ -18,8 +18,6 @@ export const Portfolio = () => {
     return (
         <div className={s.portfolio}>
             <div className={s.portfolio__container}>
-                {/*<div className={s.text}><img src={portfolio} alt="portfolio"/></div>
-                <div className={s.mainImage}><img src={stripe} alt="stripe"/></div>*/}
                 <Title img={portfolio}/>
                 <div className={s.projects}>
                     <Project background={bgTodoList} addressCode={'#'} addressProject={'#'}  title={'Todolist'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk, Material UI, Unit Tests'}/>
