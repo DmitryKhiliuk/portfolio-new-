@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Diagram.module.css'
+import s from './Diagram.module.sass'
 
 type DiagramType = {
     percent: string

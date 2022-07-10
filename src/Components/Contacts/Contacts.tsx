@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Contacts.module.css'
+import s from './Contacts.module.sass'
 import {Title} from "../Title/Title";
 import contact from "../../assets/img/contact.png";
 import {SubmitHandler, useForm} from "react-hook-form";
@@ -25,14 +25,22 @@ export const Contacts = () => {
                 <Title img={contact}/>
                 <div className={s.content}>
                     <div className={s.data}>
-                        <h3>PHONE</h3>
-                        <p>+375 29 524 45 78</p>
-                        <h3>TELEGRAM</h3>
-                        <p>@dmitrykhiliuk</p>
-                        <h3>GITHUB</h3>
-                        <a href="https://github.com/DmitryKhiliuk"><p>go to GitHub</p></a>
-                        <h3>ADDRESS</h3>
-                        <p>Brest, Belarus</p>
+                        <div className={s.data__item}>
+                            <h3>PHONE</h3>
+                            <p>+375 29 524 45 78</p>
+                        </div>
+                        <div className={s.data__item}>
+                            <h3>TELEGRAM</h3>
+                            <p>@dmitrykhiliuk</p>
+                        </div>
+                        <div className={s.data__item}>
+                            <h3>GITHUB</h3>
+                            <a href="https://github.com/DmitryKhiliuk"><p>go to GitHub</p></a>
+                        </div>
+                        <div className={s.data__item}>
+                            <h3>ADDRESS</h3>
+                            <p>Brest, Belarus</p>
+                        </div>
                     </div>
                     <form className={s.form} onSubmit={handleSubmit(onSubmit)}>
                         <input {...(register('name', {

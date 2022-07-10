@@ -1,0 +1,64 @@
+.contacts
+    background-color: white
+    max-width: 1000px
+    min-height: 100vh
+    margin: 0 auto
+    padding: 40px 0 40px 0
+    color: black
+    .contacts__container
+        max-width: 840px
+        margin: 0 auto
+        text-align: left
+        .content
+            display: flex
+            justify-content: space-between
+            height: 320px
+            border: 1px solid white
+            @media screen and (max-width: 600px)
+                flex-direction: column
+            .data
+                border: 1px solid white
+                width: 30%
+                padding: 20px
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                @media screen and (max-width: 600px)
+                    flex-direction: row
+                    width: 100%
+                    flex-wrap: wrap
+                    @media screen and (max-width: 465px)
+                        justify-content: center
+                .data__item
+                    padding: 0 10px 0 10px
+                a
+                    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif
+                    color: black
+                    text-decoration: none
+            .form
+                border: 1px solid white
+                width: 60%
+                padding: 20px
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                @media screen and (max-width: 600px)
+                    width: 100%
+                    flex-wrap: wrap
+                .inputForm
+                    height: 40px
+                .textareaForm
+                    height: 100px
+                .button
+                    height: 40px
+                    cursor: pointer
+                    font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif
+                    font-size: 22px
+                    transition: background .4s linear
+                    &:hover
+                        background: black
+                        color: white
+
+
+
+

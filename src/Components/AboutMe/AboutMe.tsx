@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './AboutMe.module.css'
+import s from './AboutMe.module.sass'
 import aboutMe from "../../assets/img/aboutme.png";
 import {Title} from "../Title/Title";
 import {Diagram} from "../Diagram/Diagram";
@@ -16,9 +16,7 @@ export const AboutMe = () => {
             <div className={s.aboutMe__container}>
                 <Title img={aboutMe}/>
                 <div className={s.personBlock}>
-                    <div className={s.photo} style={photoMe}>
-
-                    </div>
+                    <div className={s.photo} style={photoMe}></div>
                     <div className={s.text}>
                         <h2 className={s.aboutTitle}>A few words about me</h2>
                         <p>
