@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-new-/static/css/main.b20c07e2.css",
-    "main.js": "/portfolio-new-/static/js/main.fa15153f.js",
+    "main.js": "/portfolio-new-/static/js/main.e5fb5e7a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-new-/static/js/787.1ed0c42c.chunk.js",
-    "static/media/photo.jpg": "/portfolio-new-/static/media/photo.1b17bc7330780c3fe6da.jpg",
     "static/media/social.png": "/portfolio-new-/static/media/social.e9a1e19c175b86e0664c.png",
+    "static/media/photo.jpg": "/portfolio-new-/static/media/photo.3bbba902323a075ee189.jpg",
     "static/media/Roboto-Light.svg": "/portfolio-new-/static/media/Roboto-Light.b8c27feb9b7c7c7bcb96.svg",
     "static/media/YanoneKaffeesatz-Regular.svg": "/portfolio-new-/static/media/YanoneKaffeesatz-Regular.75af77ddc784dbdeb7de.svg",
     "static/media/YanoneKaffeesatz-Light.svg": "/portfolio-new-/static/media/YanoneKaffeesatz-Light.6b1428c88053f6463b6b.svg",
     "static/media/bookshelf.png": "/portfolio-new-/static/media/bookshelf.f402d65c8fc3de9aea5b.png",
+    "static/media/cards.png": "/portfolio-new-/static/media/cards.cdf8eb1449e505859024.png",
     "static/media/todolist-img.png": "/portfolio-new-/static/media/todolist-img.7b21683dea36223e3bb3.png",
     "static/media/Roboto-Light.eot": "/portfolio-new-/static/media/Roboto-Light.cade3e3390037f2b8e06.eot",
     "static/media/Roboto-Light.ttf": "/portfolio-new-/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
@@ -19,11 +20,11 @@
     "static/media/future.png": "/portfolio-new-/static/media/future.7160da89132500cab180.png",
     "index.html": "/portfolio-new-/index.html",
     "main.b20c07e2.css.map": "/portfolio-new-/static/css/main.b20c07e2.css.map",
-    "main.fa15153f.js.map": "/portfolio-new-/static/js/main.fa15153f.js.map",
+    "main.e5fb5e7a.js.map": "/portfolio-new-/static/js/main.e5fb5e7a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-new-/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b20c07e2.css",
-    "static/js/main.fa15153f.js"
+    "static/js/main.e5fb5e7a.js"
   ]
 }
