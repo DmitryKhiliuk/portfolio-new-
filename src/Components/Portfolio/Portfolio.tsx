@@ -23,7 +23,7 @@ export const Portfolio = () => {
             <div className={s.portfolio__container}>
                 <Title img={portfolio}/>
                 <div className={s.projects}>
-                    <Project background={bgTodoList} addressCode={'#'} addressProject={'#'}  title={'Todolist'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk, Material UI, Unit Tests'}/>
+                    <Project background={bgTodoList} addressCode={'https://github.com/DmitryKhiliuk/ToDo'} addressProject={'https://todo-list-main.herokuapp.com/'}  title={'Todolist'} text={'Technologies: TypeScript, Redux Toolkit, RestAPI, Redux-thunk, Material UI, Unit Tests, Storybook'}/>
                     <Project background={bgBookshelf} addressProject={'https://DmitryKhiliuk.github.io/Bookshelf'} addressCode={'https://github.com/DmitryKhiliuk/Bookshelf.git'} title={'Bookshelf'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk'}/>
                     <Project background={bgSocialNetwork} addressProject={'#'} addressCode={'#'} title={'Social Network'} text={'Technologies: TypeScript, React, Redux, Redux-thunk, Redux-form, Axios, Reselect, SCSS'}/>
                     <Project background={bgTrainingCards} addressProject={'https://DmitryKhiliuk.github.io/cards'} addressCode={'https://github.com/DmitryKhiliuk/cards.git'} title={'Training Cards'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk, Material UI'}/>
