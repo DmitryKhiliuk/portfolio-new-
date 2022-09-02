@@ -45,7 +45,7 @@ export const Footer = (props:FooterType) => {
                     </div>
                     <div className={s.footer__item}>
                         <h5>Resume</h5>
-                        <a href={"https://drive.google.com/file/d/1oQ-n3t7R4ANv8u0Xsij6B3zQd5cuOwgy/view?usp=sharing"} target={'_blank'} ><div className={s.download}></div></a>
+                        <a href={"https://drive.google.com/file/d/1PUS-ZRTMF_QX62paxqXrolSO-uMwhNNA/view?usp=sharing"} target={'_blank'} ><div className={s.download}></div></a>
                     </div>
                 </div>
                 <div className={s.footer__nav}>
