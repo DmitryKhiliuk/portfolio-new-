@@ -7,7 +7,7 @@ import bgBook from '../../assets/img/bookshelf.png'
 import bgSocial from '../../assets/img/social.png'
 import bgCards from '../../assets/img/cards.png'
 import bgShop from '../../assets/img/mobile.jpg'
-import bgFuture from '../../assets/img/future.png'
+import bgCurrency from '../../assets/img/currency.jpg'
 import {Title} from "../Title/Title";
 
 export const Portfolio = () => {
@@ -17,7 +17,7 @@ export const Portfolio = () => {
     const bgSocialNetwork = {backgroundImage: `url(${bgSocial})`}
     const bgTrainingCards = {backgroundImage: `url(${bgCards})`}
     const bgMobileShop = {backgroundImage: `url(${bgShop})`}
-    const bgFutureProject = {backgroundImage: `url(${bgFuture})`}
+    const bgCurrencyConverter = {backgroundImage: `url(${bgCurrency})`}
 
 
     return (
@@ -30,7 +30,7 @@ export const Portfolio = () => {
                     <Project background={bgSocialNetwork} addressProject={'#'} addressCode={'#'} title={'Social Network'} text={'Technologies: TypeScript, React, Redux, Redux-thunk, Redux-form, Axios, Reselect, SCSS'}/>
                     <Project background={bgTrainingCards} addressProject={'https://DmitryKhiliuk.github.io/cards'} addressCode={'https://github.com/DmitryKhiliuk/cards.git'} title={'Training Cards'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk, Material UI'}/>
                     <Project background={bgMobileShop} addressProject={'https://DmitryKhiliuk.github.io/shop'} addressCode={'https://github.com/DmitryKhiliuk/shop.git'} title={'Mobile Shop'} text={'Technologies: TypeScript, Redux Toolkit, RestAPI, Redux-thunk, Material UI, Unit Tests, Storybook'}/>
-                    <Project background={bgFutureProject} addressProject={'#'} addressCode={'#'} title={'Future Project'} text={'In progress...'}/>
+                    <Project background={bgCurrencyConverter} addressProject={'https://DmitryKhiliuk.github.io/currency-converter'} addressCode={'https://github.com/DmitryKhiliuk/currency-converter.git'} title={'Currency Converter'} text={'Technologies: TypeScript, Redux Toolkit, RestAPI, Redux-thunk, Ant Design, Unit Tests'}/>
 
                 </div>
             </div>
