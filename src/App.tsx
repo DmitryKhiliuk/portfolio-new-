@@ -18,7 +18,7 @@ function App() {
               <Header background={back}/>
               <div>
                   <Routes>
-                      <Route path={'/portfolio-new-'} element={<Portfolio/>}/>
+                      <Route path={'/'} element={<Portfolio/>}/>
                       <Route path={'/aboutMe'} element={<AboutMe/>}/>
                       <Route path={'/contacts'} element={<Contacts/>}/>
                   </Routes>
