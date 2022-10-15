@@ -3,6 +3,7 @@ import s from './Contacts.module.sass'
 import {Title} from "../Title/Title";
 import contact from "../../assets/img/contact.png";
 import {SubmitHandler, useForm} from "react-hook-form";
+import axios from "axios";
 
 export type ContactsType = {
     name: string,
@@ -15,6 +16,10 @@ export const Contacts = () => {
     const {register, handleSubmit, formState: {errors}, reset} = useForm<ContactsType>()
     
     const onSubmit:SubmitHandler<ContactsType> = (data) => {
+        axios.post('https://gmail-smtp500.herokuapp.com/sendMessage', data)
+            .then(() => {
+                alert('Отправлено!')
+            })
         console.log(data)
         reset()
     }
