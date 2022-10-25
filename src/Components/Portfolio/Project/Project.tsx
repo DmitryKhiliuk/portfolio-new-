@@ -20,9 +20,8 @@ export const Project = (props:ProjectType) => {
                 </div>
                 <h2 className={s.title}>{props.title}</h2>
                 <div className={s.buttonBlock}>
-                    <a href={props.addressProject} className={s.button}>VIEW PROJECT</a>
-                    {/*<button className={s.button}>VIEW PROJECT</button>*/}
-                    <a href={props.addressCode} className={s.button}>VIEW CODE</a>
+                    <a href={props.addressProject} target='_blank' className={s.button}>VIEW PROJECT</a>
+                    <a href={props.addressCode} target='_blank' className={s.button}>VIEW CODE</a>
                 </div>
             </div>
         </div>
