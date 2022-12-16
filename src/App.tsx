@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, Routes} from "react-router-dom";
 import {Portfolio} from "./Components/Portfolio/Portfolio";
 import {AboutMe} from "./Components/AboutMe/AboutMe";
 import {Contacts} from "./Components/Contacts/Contacts";
@@ -13,7 +13,7 @@ const back = {
 }
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
           <div className="App">
               <Header background={back}/>
               <div>
@@ -25,7 +25,7 @@ function App() {
               </div>
               <Footer background={back}/>
           </div>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
