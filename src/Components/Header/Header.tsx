@@ -16,7 +16,7 @@ export const Header = (props: HeaderType) => {
                     <h1>Dmitry Khiliuk</h1>
                     <h3>Front-end developer</h3>
                 </div>
-                {window.innerWidth > 520 ?
+                {window.innerWidth > 585 ?
                 <Navigation/> :
                 <NavigationMobile/>}
             </div>

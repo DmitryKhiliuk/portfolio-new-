@@ -16,7 +16,7 @@ export const Project = (props:ProjectType) => {
 
     return (
         <div className={s.project__item} style={props.background}>
-            {window.innerWidth > 520 ?
+            {window.innerWidth > 720 ?
                 <div className={s.content} >
                     <div className={s.textBlock}>
                         <div className={s.text}>
