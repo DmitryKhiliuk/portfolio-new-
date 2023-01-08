@@ -16,7 +16,8 @@ export const Contacts = () => {
     const {register, handleSubmit, formState: {errors}, reset} = useForm<ContactsType>()
     
     const onSubmit:SubmitHandler<ContactsType> = (data) => {
-        axios.post('https://gmail-smtp-beta.vercel.app/sendMessage', data)
+        //axios.post('https://gmail-smtp-beta.vercel.app/sendMessage', data)
+        axios.post('http://localhost:3010/sendMessage', data)
             .then(() => {
                 alert('Отправлено!')
             })
