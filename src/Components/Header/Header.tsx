@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Header.module.sass'
 import {Navigation} from "../Navigation/Navigation";
+import {NavigationMobile} from "../Navigation/NavigationMobile";
 
 type HeaderType = {
     background:{backgroundImage:string}
@@ -15,7 +16,9 @@ export const Header = (props: HeaderType) => {
                     <h1>Dmitry Khiliuk</h1>
                     <h3>Front-end developer</h3>
                 </div>
-                <Navigation/>
+                {window.innerWidth > 520 ?
+                <Navigation/> :
+                <NavigationMobile/>}
             </div>
         </div>
     );
