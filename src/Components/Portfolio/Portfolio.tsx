@@ -8,6 +8,7 @@ import bgSocial from '../../assets/img/social.png'
 import bgCards from '../../assets/img/cards.png'
 import bgShop from '../../assets/img/mobile.jpg'
 import bgCurrency from '../../assets/img/currency.jpg'
+import bgLibrary from '../../assets/img/libary.jpg'
 import {Title} from "../Title/Title";
 
 export const Portfolio = () => {
@@ -18,6 +19,7 @@ export const Portfolio = () => {
     const bgTrainingCards = {backgroundImage: `url(${bgCards})`}
     const bgMobileShop = {backgroundImage: `url(${bgShop})`}
     const bgCurrencyConverter = {backgroundImage: `url(${bgCurrency})`}
+    const bgLibraryClevertec = {backgroundImage: `url(${bgLibrary})`}
 
 
     return (
@@ -31,6 +33,7 @@ export const Portfolio = () => {
                     <Project background={bgTrainingCards} addressProject={'https://DmitryKhiliuk.github.io/cards'} addressCode={'https://github.com/DmitryKhiliuk/cards.git'} title={'Training Cards'} text={'Technologies: TypeScript, Redux, RestAPI, Redux-thunk, Material UI'}/>
                     <Project background={bgMobileShop} addressProject={'https://DmitryKhiliuk.github.io/shop'} addressCode={'https://github.com/DmitryKhiliuk/shop.git'} title={'Mobile Shop'} text={'Technologies: TypeScript, Redux Toolkit, RestAPI, Redux-thunk, Material UI, Unit Tests, Storybook'}/>
                     <Project background={bgCurrencyConverter} addressProject={'https://DmitryKhiliuk.github.io/currency-converter'} addressCode={'https://github.com/DmitryKhiliuk/currency-converter.git'} title={'Currency Converter'} text={'Technologies: TypeScript, Redux Toolkit, RestAPI, Redux-thunk, Ant Design, Unit Tests'}/>
+                    <Project background={bgLibraryClevertec} addressProject={'https://DmitryKhiliuk.github.io/library-clevertec'} addressCode={'https://github.com/DmitryKhiliuk/library-clevertec.git'} title={'Library'} text={'Technologies: TypeScript, Redux Toolkit, RestAPI, Redux-thunk, No UI Library, e2e tests Cypress'}/>
 
                 </div>
             </div>
