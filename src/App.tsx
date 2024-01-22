@@ -13,7 +13,7 @@ const back = {
 }
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
           <div className="App">
               <Header background={back}/>
               <div>
@@ -25,7 +25,7 @@ function App() {
               </div>
               <Footer background={back}/>
           </div>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
