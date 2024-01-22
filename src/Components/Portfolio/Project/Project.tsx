@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import s from './Progect.module.sass'
 import {Flip} from "react-awesome-reveal";
 
@@ -14,9 +14,27 @@ type ProjectType = {
 
 export const Project = (props:ProjectType) => {
 
+    const [windowSize, setWindowSize] = useState([
+        window.innerWidth,
+        window.innerHeight,
+    ]);
+
+    useEffect(() => {
+        const handleWindowResize = () => {
+            setWindowSize([window.innerWidth, window.innerHeight]);
+        };
+
+        window.addEventListener('resize', handleWindowResize);
+
+        return () => {
+            window.removeEventListener('resize', handleWindowResize);
+        };
+    }, []);
+
+
     return (
         <div className={s.project__item} style={props.background}>
-            {window.innerWidth > 720 ?
+            {windowSize[0] > 720 ?
                 <div className={s.content} >
                     <div className={s.textBlock}>
                         <div className={s.text}>
