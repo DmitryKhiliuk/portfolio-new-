@@ -48,7 +48,7 @@ export const NavigationMobile = () => {
 
                 }}
             >
-                <MenuItem onClick={handleClose}><NavLink to={'/'} className={s.item} >PORTFOLIO</NavLink></MenuItem>
+                <MenuItem onClick={handleClose}><NavLink to={'/portfolio-new-'} className={s.item} >PORTFOLIO</NavLink></MenuItem>
                 <MenuItem onClick={handleClose}><NavLink to={'/aboutMe'} className={s.item} >ABOUT ME</NavLink></MenuItem>
                 <MenuItem onClick={handleClose}><NavLink to={'/contacts'} className={s.item} >CONTACT</NavLink></MenuItem>
             </Menu>
