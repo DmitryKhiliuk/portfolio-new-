@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-new-/static/css/main.b7cea104.css",
-    "main.js": "/portfolio-new-/static/js/main.cd75fe12.js",
+    "main.css": "/portfolio-new-/static/css/main.3c2f0770.css",
+    "main.js": "/portfolio-new-/static/js/main.575feb29.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-new-/static/js/787.1ed0c42c.chunk.js",
     "static/media/social.png": "/portfolio-new-/static/media/social.e9a1e19c175b86e0664c.png",
     "static/media/photo.jpg": "/portfolio-new-/static/media/photo.3bbba902323a075ee189.jpg",
@@ -21,12 +21,12 @@
     "static/media/YanoneKaffeesatz-Regular.ttf": "/portfolio-new-/static/media/YanoneKaffeesatz-Regular.19bfeab9c82bdea4455e.ttf",
     "static/media/YanoneKaffeesatz-Light.ttf": "/portfolio-new-/static/media/YanoneKaffeesatz-Light.7093d6d402dd774665bf.ttf",
     "index.html": "/portfolio-new-/index.html",
-    "main.b7cea104.css.map": "/portfolio-new-/static/css/main.b7cea104.css.map",
-    "main.cd75fe12.js.map": "/portfolio-new-/static/js/main.cd75fe12.js.map",
+    "main.3c2f0770.css.map": "/portfolio-new-/static/css/main.3c2f0770.css.map",
+    "main.575feb29.js.map": "/portfolio-new-/static/js/main.575feb29.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-new-/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7cea104.css",
-    "static/js/main.cd75fe12.js"
+    "static/css/main.3c2f0770.css",
+    "static/js/main.575feb29.js"
   ]
 }
