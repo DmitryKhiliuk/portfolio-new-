@@ -45,13 +45,6 @@
     "deploy": "gh-pages -d build",
     "postbuild": "react-snap"
   },
-  "reactSnap": {
-    "source": "dist",
-    "minifyHtml": {
-      "collapseWhitespace": false,
-      "removeComments": false
-    }
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
