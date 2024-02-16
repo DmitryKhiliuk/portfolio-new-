@@ -10,7 +10,7 @@ export const Navigation = () => {
 
     return (
         <nav className={s.nav}>
-            <NavLink to={'/portfolio-new-'} className={setActive}>PORTFOLIO</NavLink>
+            <NavLink to={'/'} className={setActive}>PORTFOLIO</NavLink>
             <NavLink to={'/aboutMe'} className={setActive}>ABOUT ME</NavLink>
             <NavLink to={'/contacts'} className={setActive}>CONTACT</NavLink>
         </nav>

@@ -13,19 +13,19 @@ const back = {
 }
 function App() {
   return (
-      <HashRouter>
+      <BrowserRouter>
           <div className="App">
               <Header background={back}/>
               <div>
                   <Routes>
-                      <Route path={'/portfolio-new-'} element={<Portfolio/>}/>
+                      <Route path={'/'} element={<Portfolio/>}/>
                       <Route path={'/aboutMe'} element={<AboutMe/>}/>
                       <Route path={'/contacts'} element={<Contacts/>}/>
                   </Routes>
               </div>
               <Footer background={back}/>
           </div>
-      </HashRouter>
+      </BrowserRouter>
   );
 }
 
